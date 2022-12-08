@@ -21,13 +21,13 @@ const Home = () => {
       <div className="d-flex flex-row justify-content-center">
         <div className="clock text-white">
           <i
-            className="fa-solid fa-clock p-5 fs-1">
+            className="fa-regular fa-clock fa-spin p-2">
 		      </i>
         </div>
-        <div className="four text-white p-5 fs-1">{Math.floor(timer/1000)%10}</div>
-        <div className="three text-white p-5 fs-1">{Math.floor(timer/100)%10}</div>
-        <div className="two text-white p-5 fs-1">{Math.floor(timer/10)%10}</div>
-        <div className="one text-white p-5 fs-1">{Math.floor(timer/1)%10}</div>
+        <div className="four text-white p-2 fs-1">{Math.floor(timer/1000)%10}</div>
+        <div className="three text-white p-2 fs-1">{Math.floor(timer/100)%10}</div>
+        <div className="two text-white p-2 fs-1">{Math.floor(timer/10)%10}</div>
+        <div className="one text-white p-2 fs-1">{Math.floor(timer/1)%10}</div>
       </div>
     </div>
   );
